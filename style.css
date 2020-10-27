@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Navbar */
+
+nav {
+    padding: 5px;
+    background-color: #ff6b85;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+/* Profile Section */
+
+#profile-section {
+    background-color: #ff909b;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ff3263' fill-opacity='0.39'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    padding: 25px;
+}
+
+#avatar {
+    border-radius: 50%;
+    max-width: 65%;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(20px 10px 0px #fff);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+#profile-section h2 {
+    margin-top: 0;
+}
+
+h1, #profile-section h2, #social-media {
+    text-align: center;
+    color: white;
+    filter: drop-shadow(5px 5px 0px #ff0f77);
+}
+
+#social-media i {
+    margin: 0 10px;
+    color: white;
+}
+
+/* Main */
+
+main {
+    background-color: white;
+    padding: 30px 40px;
+}
+
+main h2 {
+    color: #ff4f83;
+}
+
+#contact-button {
+    padding: 7px 9px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #FF909B;
+    filter: drop-shadow(5px 5px 0px #ff0f77);
+    /* float: right; */
+}
+
+/* Work */
+
+#work-section h2 {
+    color: #ff4f83;
+    margin-top: 45px;
+}
+
+#work-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+#work-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-cards {
+    width: 200px;
+    background-color: #ff909b;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ff3263' fill-opacity='0.39'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    filter: drop-shadow(5px 5px 0px #ff0f77);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.work-cards:hover {
+    background-color: #ffafb6;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ff909b' fill-opacity='0.69'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    filter: drop-shadow(5px 5px 0px #FF6B85);
+}
+
+.work-cards h3 {
+    margin: 10px 0 0 0;
+}
+
+.work-icon {
+    max-width: 100px;
+}
+
+
+/* Footer */
+
+footer {
+    margin: 0;
+    padding: 15px;
+    background-color: #ff6b85;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@supports (grid-area: auto) {
+
+	@media screen and (min-width: 50em) {
+
+		body {
+			max-width: none;
+            height: 100vh;
+			display: grid;
+			grid-template-columns: 5fr 6fr;
+            grid-template-areas:
+            "profile header"
+            "profile main"
+            "profile footer"
+		}
+
+		#profile-section {
+            grid-area: profile;
+            padding-top: 50px;
+        }
+
+        nav {
+            grid-area: header;
+            height: 30px;
+        }
+
+        main {
+            grid-area: main;
+            overflow-y: scroll;
+        }
+
+        #work-wrapper {
+            min-height: 44vh;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .work-cards {
+            flex: 0 1 170px;
+            text-align: center;
+        }
+
+        footer {
+            grid-area: footer;
+            height: 20px;
+        }
+
+	}
